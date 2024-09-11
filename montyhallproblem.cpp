@@ -5,7 +5,9 @@
 int main() {
     srand(static_cast<unsigned int>(time(0))); // Seed for random number generation
 
-    const int numTrials = 1000000;
+    int numTrials;
+    std::cout<<"Write the number of the trials"<<'\n';
+    std>>cin numTrials;
     int switchWins = 0;
     int stickWins = 0;
 
